@@ -1,5 +1,7 @@
 # How to use
 
+※ 複数チームでの利用前提の人は [公式](https://github.com/nulab/franz-recipe-backlog) のプラグインを導入するほうが楽かもしれないです。
+
 まずは Franz をダウンロードし、インストール。アカウントを作成して、最初に仮で何かサービスを一つ追加する。
 
 https://meetfranz.com/
@@ -66,3 +68,9 @@ $ convert icon.png icon.svg
 で行けるはず。
 
 Cmd + Shift + R で　Franz を再起動し Cmd + N でサービスの追加を開くと、作成したチームが追加されているはず。
+
+上記手順が面倒な場合、[公式](https://github.com/nulab/franz-recipe-backlog) のプラグインを導入すれば、サービス追加時にIDを指定できる。
+
+アイコンの取得は手動で。
+
+
