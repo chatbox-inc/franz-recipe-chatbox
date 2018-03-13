@@ -1,14 +1,34 @@
 # How to use
 
-1. このリポジトリをZip形式でダウンロード
+まずは Franz をダウンロードし、インストール。アカウントを作成して、最初に仮で何かサービスを一つ追加する。
 
-2. ダウンロードしたZipファイルを解凍
+https://meetfranz.com/
 
-3. フォルダ名を"chatbox"に変更
 
-4. ~/Library/Application Support/Franz/recipes/ 以下にdevフォルダを作成し、その中に 3 で作ったフォルダを入れる
+Franz のフォルダに移動
 
-5. Franzからサービスを追加 > 開発版 からchatboxを選択し、サービスを保存する
+````
+$ cd ~/Library/Application\ Support/Franz/recipes/
+````
 
-6. Backlogにログインする
+ls でフォルダを確認してなければ dev　フォルダを作成し、移動する。
 
+````
+$ ls 
+gmail	temp
+$ mkdir dev
+$ cd dev
+````
+
+chatbox という名称で Clone
+
+````
+$ git clone https://github.com/chatbox-inc/franz-recipe-chatbox chatbox
+Cloning into 'chatbox'...
+remote: Counting objects: 34, done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 34 (delta 5), reused 20 (delta 4), pack-reused 13
+Unpacking objects: 100% (34/34), done.
+````
+
+Cmd + Shift + R で　Franz を再起動し Cmd + N でサービスの追加を開くと、開発版が選択可能になるため、chatboxを追加する。
